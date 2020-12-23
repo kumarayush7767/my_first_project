@@ -1,0 +1,68 @@
+.slide
+{
+    position: relative;
+height: 320px;
+margin-left: 103px;
+margin-top: 6px;
+//border: 10px solid #FFF;
+border-radius: 3px;
+box-shadow: 0px 0px 25px #000;
+width: 560px;
+}
+.slide img{
+    width:560px;
+    height: 320px;
+    position: absolute;
+    display: none;
+}
+
+.arrownav
+{
+    z-index:1;
+    font-size: 80px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-shadow: 2px 1px 10px #000;
+    font-family:"Euphemia";
+    cursor: pointer;
+    float:left;
+}
+#left
+{
+    margin: 100px 10px 100px 40px;
+}
+#right
+{
+    margin: -256px 100px 0px 652px;
+}
+#captiongallery
+{
+    position: relative;
+    top:-70px;
+    padding: 10px;
+    left:152px;
+    width: 200px;
+    height:30px;
+    font-size: 12px;
+    background: rgba(255,255,255,0.7);
+    color: #000;
+    text-align: left;
+}
+#pause
+{
+    position: absolute;
+top: 160px;
+left: 920px;
+font-size: 30px;
+}
+#capbutton
+{
+    position: absolute;
+    top: 280px;
+    left: 915px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    color:black;
+}

@@ -1,0 +1,299 @@
+#new_back{
+    background: whitesmoke;
+    min-height: 1100px;
+ }
+ #new_vmenu ul{
+     position: relative;
+     top:100px;
+    text-align: center;
+    list-style-type: none;
+ 
+ }
+ #new_vmenu ul li{
+    background: #224E90;
+    width: 158px;
+    height: auto;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Segoe UI Symbol",verdana;
+    box-shadow: 5px 5px 5px black;
+    color:white;
+    cursor: pointer;
+    border-left-style: solid;
+    border-left-color: #6fa6f9;
+    border-left-width: 5px;
+ }
+ 
+ #new_vmenu ul li:hover{
+ border-left-style: solid;
+    border-left-color: #224E90;
+    border-left-width: 5px;
+ }
+ #new_home{
+    background: white;
+    margin-left: 17px;
+    min-height: 550px;
+ }
+ #new_head{
+    margin-left: 450px;
+    background: url('../images/backfoot.png');
+    font-family: "Segoe UI Symbol",verdana;
+    font-size: 25px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+    color:white;
+    box-shadow: 15px 15px 15px black;
+ }
+ #new_about{
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: Vani,"Segoe UI Symbol",verdana;
+    font-size: 15px;  
+ }
+ #new_full_about
+ {
+     padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: Vani,"Segoe UI Symbol",verdana;
+    font-size: 15px; 
+ }
+ #rti
+ {
+     position: relative;
+     padding: 20px;
+    margin-top: 50px;
+    font-family: Vani,"Segoe UI Symbol",verdana;
+    font-size: 15px;
+    left: 100px;
+ }
+ #fullwimg
+ {
+     position: relative;
+ padding: 20px;
+ margin-top: 50px;
+ font-family: Vani,"Segoe UI Symbol",verdana;
+ font-size: 15px;
+ left: 57px;
+ }
+ #contact_about
+ {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: Vani,"Segoe UI Symbol",verdana;
+    font-size: 15px; 
+    min-height: 700px;
+ 
+ }
+ #new_dep{
+    margin-top: 30px;
+    height: 250px;
+    width: 480px;
+    margin-left: 35px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ca6c46;
+    box-shadow: 0px 15px 5px black;
+ }
+ #new_add th{
+    background: url('../images/hod_back.png');
+    background-repeat: repeat-x;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    
+ }
+ #new_add td{
+    background: #fad8cb;
+    padding: 10px;
+ }
+ #new_add img{
+    height: 100px;
+    width: 90px;
+    margin-left: 5px;
+ }
+ #new_add{
+    margin-right: 25px;
+    margin-top: 30px;
+    font-family: "Segoe UI Symbol";
+    margin-bottom: 15px;
+ }
+ #plac_off{
+     background: #d3e0f8;
+     padding: 45px;
+     margin-left: 10px;
+     margin-top: 10px;
+     border-radius: 5px;
+ }
+ #plac_off div{
+     position: relative;
+     margin-left:400px;
+     
+ }
+ #plac_off img{
+     height: 200px;
+     width:170px;
+     box-shadow: 10px 10px 10px black;
+     float: left;
+ }
+ #plac_comp td{
+     background: white;
+     width:450px;
+     padding: 5px;
+     padding-left: 25px;
+ }
+ #plac_comp{
+     margin-left: 55px;
+ }
+ #new_full_about a:link{
+     color: #6b90ff;
+     text-decoration: none;
+ }
+ #new_about a:link{
+     color: #6b90ff;
+     text-decoration: none;
+ }
+ #new_about a:hover{
+     color:black;
+     text-decoration: underline;
+ }
+ #new_full_about a:visited{
+     color: #6b90ff;
+ }
+ #new_about a:visited{
+     color: #6b90ff;
+ }
+ table
+ {
+         font-size: 1em;
+ }
+ td
+ {
+     padding: 0px 20px 0px 40px;
+ }
+ th{
+     background: #5c8eea;
+     padding: 5px 10px 0px 10px;
+     color: white;
+     font-weight: normal;
+     font-size: 18px;
+     text-align: center;
+ }
+ tr{
+     text-align: left;
+     background: #d3e0f8;
+ }
+ td a{
+     text-decoration: none;
+     color:#3672fa;
+ }
+ td a:hover{
+     text-decoration: underline;
+     color: #000;
+ }
+ #rti tr
+ {
+     text-align: left;
+ }
+ #alt_row{
+     background: #FFF;
+ }
+ #mapnitp
+ {
+     width: 450px;
+     height: 350px;
+     position: relative;
+     background: url("../images/loading.gif");
+ }
+ #facility_about{
+     margin: 50 50 50 50;
+     font-size: 15px;
+     text-align: justify;
+     font-family: Vani,verdana;
+     min-height: 670px;
+ }
+ #loginstudent
+ {
+     border: 2px solid #000;
+     margin: 10px 400px;
+     width: 500px;
+ }
+ #faculty{
+     list-style-type: none;
+ }
+ #faculty li{
+     margin-top: 10px;
+     background: #eef8fa;
+     text-align: center;
+ }
+ #faculty img{
+     width:100px;
+     height: 110px;
+     margin-top: 10px;
+     margin-left: 60px;
+     box-shadow: 5px 5px 5px gray;
+ }
+ #new_full_about  table img{
+     height:100px;
+     width: 100px;
+ }
+ #new_full_about{
+     min-height: 710px;
+ }
+ #rec_plac td{
+     padding-left: 60px;
+ }
+ #rec_plac th{
+     text-align: left;
+     padding-left: 60px;
+     padding-right: 60px;
+ }
+ 
+ #plac_stu td{
+     background: #f1f5f8;
+     margin-left: 30px;
+     padding: 10px;
+ }
+ #new_about_about
+ {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    font-family: Vani,"Segoe UI Symbol",verdana;
+    font-size: 15px;
+    min-height: 500px;
+ }
+ #hcprofile
+ {
+     background: #EDF0F6;
+     padding: 10px;
+ }
+ #hcprofile img
+ {
+     width: 111px;
+ height: 124px;
+ position: absolute;
+ margin-top: -100px;
+ left: 600px;
+ }
+ #new_full_about_stu
+ {
+     min-height: 420px;
+ }
+ #noticesall tr td a{
+     color:black;
+ }
+ #noticesall tr td a:hover{
+     color:#224e90;
+ }
+ #noticesall tr td{
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ #noticesall tr td img{
+ width:46px;
+ height:20px;}

@@ -1,0 +1,99 @@
+
+#abtgal{
+    height: 400px;
+    overflow: hidden;
+    background-color: #edf0f6;
+}
+#gallery{
+   height: 350px;
+margin-top: 20px;
+margin-left: 8px;
+margin-bottom: 5px;
+width: 660px;
+}
+#research
+{
+    margin: -345px 0px 0px 735px;
+}
+#rhead
+{
+    border-left: 3px solid #224E90;
+font-size: 29px;
+color: #224E90;
+font-family: "Segoe UI";
+padding-left: 18px;
+}
+#rhead a{
+    color: #224e90
+}
+
+#bar{
+   height: 360px;
+   margin-left: 50px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   padding-right: 31px;
+}
+
+.not_member{
+   display: inline;
+   width: 90px;
+   background: white;
+   font-size: 23px;
+   padding: 4px 25px 5px 25px;
+   margin-left: 30px;
+   font-family: "segoe UI symbol",verdana;
+   color: black;
+   cursor: pointer;
+}
+#not_body{
+   font-family: vani,verdana;
+   font-size: 15px;
+   padding-left:20px;
+   margin-left: 0px;
+   padding-top: 5px;
+   position: relative;
+   z-index: 1;
+   height: 280px;
+   margin-top: 0px;
+   width:480px;
+   text-align: justify;
+}
+a,#not_body{
+   color: black;
+   text-decoration: none;
+}
+#qlink_item{
+   background: #224e90;
+   text-align: center;
+   padding: 6px 0px 6px 0px;
+   color: white;
+   font-family: "segoe UI symbol",verdana;
+   font-size: 15px;
+   margin-top: 8px;
+   margin-left: 25px;
+   width: 250px;
+}
+#qlink{
+   margin-top: 47px;
+   margin-bottom: 30px;
+   margin-left: 2px;
+}
+#qlink_item a{
+    color: white;
+    text-decoration: none;
+}
+#not_body ul li{
+    padding: 15px;
+    margin-top:5px;
+}
+#not_body ul{
+    margin-left: -20px;
+    margin-top: 5px;
+}
+#not_body ul li a{
+    color: #457CF8;
+}
+#not_body ul li a:hover{
+    text-decoration: underline;
+}

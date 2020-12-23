@@ -1,0 +1,101 @@
+root{
+    display: block;
+}
+#header_div
+{  
+   margin-left: 50px;
+   color: white;
+   text-decoration: none;
+   font-family: "Mangal",verdana;
+   margin-right: 20px;
+}
+.head_link
+{
+   margin-left: 20px;
+   margin-top: -5px;
+   background: #224e90;
+}
+.head_link a{
+   color:white;
+   text-decoration: none;
+   font-size: 13px;
+   position: relative;
+   z-index: 2;
+}
+#searchbar
+{
+     overflow: hidden;
+     height: 24px;
+     width: 14%;
+     padding:2px 0px 7px 0px;
+}
+#searchbar input
+{
+    position: relative;
+    top:0px;
+    width: 100px;
+}
+#searchbar button
+{
+    width:18%; 
+    padding: 0px; 
+    position: relative; 
+    top:4px;
+    left: 0px;
+}
+#searchbar img{
+    position: relative;
+    width: 18px;
+    height: 17px;
+}
+
+#menu_bar {
+	margin:0;
+	padding:0;
+        padding-left: 30px;
+        height: 32px;    
+        font-family: "Segoe UI Symbol",Verdana;
+        font-size: 15px;
+        color: white;
+        width: 1315px;background: #224e90;
+}
+
+#menu_bar li {
+	list-style:none;
+	float:left;
+}
+
+#menu_bar li a:link, #menu_bar li a:visited {
+	color:white;
+text-decoration: none;
+padding:7px 26px 7px 28px;
+display: block;
+}
+
+#menu_bar li a:hover {
+	background:url('../images/backfoot.png');
+}
+/*style the sub menu*/
+#menu_bar li ul {
+	position:absolute;
+	visibility:hidden;
+	margin:0;
+        z-index: 10;
+        top:150px;
+        padding: 2px;
+        background: #224e90;
+}
+
+#menu_bar li ul li {
+	float:none;
+margin: 0px;
+border-top: solid 1px white;
+font-family: "Segoe UI Symbol",Verdana;
+font-size:14px;
+}
+
+#menu_bar li ul li a:link, #menu_bar li ul li a:visited {
+	
+padding:3px 35px 3px 35px;
+	width:auto;
+}

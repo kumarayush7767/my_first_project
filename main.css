@@ -1,0 +1,27 @@
+
+
+
+
+	
+		#marqueecontainer{
+            position: relative;
+            width: 500px; /*marquee width */
+            height: 285px; /*marquee height */
+            
+            overflow: hidden;
+            }
+            #desc #marqueecontainer{
+            position: relative;
+            width: 383px; /*marquee width */
+            height: 130px; /*marquee height */
+            
+            overflow: hidden;
+            }
+            #opi{
+                width: 500px; /*marquee width */
+            height: 285px; /*marquee height */
+            
+            overflow-y: scroll;
+            overflow-x:hidden;
+            }
+            
